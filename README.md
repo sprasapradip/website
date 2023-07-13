@@ -43,3 +43,11 @@ To set up the project locally, follow these steps:
    DB_DATABASE=your_database_name
    DB_USERNAME=your_database_username
    DB_PASSWORD=your_database_password
+7. Run the database migrations to create the required tables:
+   ```bash
+   php artisan migrate
+
+8. Optionally, you can seed the database with sample data by running the following command:
+   ```bash
+   php artisan db:seed
+
