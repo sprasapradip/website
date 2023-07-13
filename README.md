@@ -56,5 +56,7 @@ To set up the project locally, follow these steps:
 
 10. Open your web browser and visit http://localhost:8000 to see the website.
 
+- These steps assume you have PHP and a compatible database (like MySQL) installed on your local system. Adjust the database configuration in the .env file according to your specific setup.
+
 
 
