@@ -24,5 +24,22 @@ To set up the project locally, follow these steps:
 2. Navigate to the cloned project directory:
     ```bash
      cd website
+3. Install the required dependencies using Composer. Make sure you have Composer installed on your system:
+   ```bash
+   composer install
 
+4. Rename the .env.example file to .env:
+   ```bash
+   mv .env.example .env
+5. Generate a unique application key:
+   ```bash
+   php artisan key:generate
 
+6. Configure your database settings in the .env file. Update the following lines with your database credentials:
+   ```bash
+   DB_CONNECTION=mysql
+   DB_HOST=your_database_host
+   DB_PORT=your_database_port
+   DB_DATABASE=your_database_name
+   DB_USERNAME=your_database_username
+   DB_PASSWORD=your_database_password
