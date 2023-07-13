@@ -50,4 +50,11 @@ To set up the project locally, follow these steps:
 8. Optionally, you can seed the database with sample data by running the following command:
    ```bash
    php artisan db:seed
+9. Start the local development server:
+   ```bash
+   php artisan serve
+
+10. Open your web browser and visit http://localhost:8000 to see the website.
+
+
 
