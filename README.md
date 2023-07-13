@@ -58,5 +58,26 @@ To set up the project locally, follow these steps:
 
 - These steps assume you have PHP and a compatible database (like MySQL) installed on your local system. Adjust the database configuration in the .env file according to your specific setup.
 
+## Usage
+
+To use the website, follow these steps:
+
+1. Ensure that the project is set up and running locally by following the [Installation](#installation) instructions.
+
+2. Open your web browser and visit `http://localhost:8000` to access the website.
+
+3. Explore the various pages and features of the website, such as browsing products, adding items to the cart, and checking out.
+
+4. Customize and modify the website as per your requirements by editing the relevant code files.
+
+5. Integrate additional functionality or modules by following the project's documentation or guidelines.
+
+6. Provide feedback or report any issues by opening a new issue on the project's GitHub repository.
+
+7. Contribute to the project by submitting pull requests with improvements, bug fixes, or new features.
+
+Make sure to consult the project documentation or README file for any specific instructions or details provided by the project's author.
+
+Enjoy using the website and feel free to customize it according to your needs!
 
 
