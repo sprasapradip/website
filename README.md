@@ -95,3 +95,11 @@ We welcome contributions to enhance the functionality and features of the websit
 3. Push your branch to your forked repository:
    ```bash
    git push origin feature/your-feature-name
+4. Open a pull request to the main repository's master branch, describing the changes you made.
+5. Ensure that your code follows the project's coding standards and guidelines.
+6. Be responsive to any feedback or review comments provided during the code review process.
+7. Once your pull request is approved and merged, your changes will become part of the project.
+
+- Thank you for your contributions! Together, we can make the website even better!
+
+
