@@ -84,7 +84,5 @@ Enjoy using the website and feel free to customize it according to your needs!
 
 We welcome contributions to enhance the functionality and features of the website. To contribute, please follow these guidelines:
 
-1. Fork the repository and create your branch:
-   ```bash
-   git checkout -b feature/your-feature-name
+
 
