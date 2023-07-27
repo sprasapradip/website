@@ -111,7 +111,7 @@
                             <strong>
                                 <!-- <span class="glyphicon glyphicon-eye-open text-primary"></span>  -->
                                 Zipcode                                                
-                            </strong>
+                            </strong>  
                         </td>
                         <td class="text-primary">
                             <?php echo ': '.$singlecustomer->ZIPCODE; ?>
