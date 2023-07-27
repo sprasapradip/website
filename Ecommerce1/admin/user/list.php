@@ -30,7 +30,7 @@
 				  <tbody>
 				  	<?php 
 				  		// $mydb->setQuery("SELECT * 
-								// 			FROM  `tblusers` WHERE TYPE != 'Customer'");
+								// 			FROM  `tbluseracount` WHERE TYPE != 'Customer'");
 				  		$mydb->setQuery("SELECT * 
 											FROM  `useraccount`");
 				  		$cur = $mydb->loadResultList();
