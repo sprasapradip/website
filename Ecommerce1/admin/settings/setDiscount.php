@@ -1,12 +1,12 @@
 <?php  
-require_once("../../include/initialize.php");
+require_once("../../include/init.php");
     if (!isset($_SESSION['USERID'])){
       redirect(web_root."index.php");
      }
 
  
  $PROID =   $_GET['id']; 
-$query = "SELECT * FROM `tblproduct` p  ,`tblcategory` c ,`tblpromopro` pr
+$query = "SELECT * FROM `tproduct` p  ,`tcategory` c ,`tpromopro` pr
             WHERE   p.`CATEGID`=c.`CATEGID` AND p.`PROID`=pr.`PROID` AND p.`PROID`=" . $PROID;
             $mydb->setQuery($query);
             $cur = $mydb->loadResultList();
