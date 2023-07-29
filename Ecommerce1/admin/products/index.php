@@ -5,7 +5,36 @@ require_once("../../include/init.php");
 if(!isset($_SESSION['USERID'])){
 	redirect(web_root."admin/index.php");
 }
+$view = (isset($_GET['view']) && $_GET['view'] != '') ? $_GET['view'] : '';
 
+	$header=$view;
+	$title="Products"; 
+	switch ($view) {
+
+	case 'list' :
+	 
+		$content    = 'list.php';		
+		break;
+        case 'list' :
+	 
+		$content    = 'list.php';		
+		break;
+	case 'list' :
+	 
+		$content    = 'list.php';		
+		break;
+	case 'list' :
+	 
+		$content    = 'list.php';		
+		break;
+	
+  	default :
+	$title="Products";
+		$content    = 'list.php';
+	}
+
+
+   
  
 require_once ("../theme/file.php");
 ?>
