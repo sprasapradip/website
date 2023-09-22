@@ -12,7 +12,6 @@
     font-size: 36px;
     margin-bottom: 0;
 }
-
 .rainbow-text {
     background: linear-gradient(45deg, #ff7e5f, #feb47b, #ffeda8, #a8c686, #63a69f, #5d5caa, #a3576c);
     background-clip: text;
