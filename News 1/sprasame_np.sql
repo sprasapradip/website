@@ -2296,7 +2296,7 @@ INSERT INTO `settings` (`id`, `key`, `value`, `created_at`, `updated_at`) VALUES
 (136, 'time_zone', 'UTC', NULL, '2024-08-11 00:41:25'),
 (137, 'enable_send_error_reporting_via_email', '0', NULL, '2024-08-11 00:41:25'),
 (138, 'redirect_404_to_homepage', '0', NULL, '2024-08-11 00:41:25'),
-(139, 'openai_api_key', 'sk-proj-U65sMfjQ2bWifRpAElRNT8kCA_NGqxN3_bajMisZr4BRAd4MDkqK41cZm7T3BlbkFJFACriEsQ60kNyVgc5ajO8WjMyrZNmkZXjioqK37VoYyx6e', NULL, '2024-08-11 00:41:25'),
+(139, 'openai_api_key', '**************', NULL, '2024-08-11 00:41:25'),
 (140, 'openai_limit_text', '256', NULL, '2024-08-11 00:41:25'),
 (141, 'locale', '', NULL, '2024-08-11 00:41:25'),
 (142, 'login_screen_backgrounds', '[]', NULL, '2024-08-11 00:41:25'),
