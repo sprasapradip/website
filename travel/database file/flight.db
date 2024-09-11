@@ -19,4 +19,24 @@ CREATE TABLE locations (
 
 -- Add some sample data
 INSERT INTO locations (location_name) VALUES
+('Kathmandu'),
+('Pokhara'),
+('Chitwan'),
+('Biratnagar'),
+('Lumbini'),
+('Bharatpur'),
+('Janakpur'),
+('Nepalgunj'),
+('Lukla'),
+('Simara'),
+('Tumlingtar'),
+('Dhangadhi'),
+('Bhadrapur'),
+('Taplejung'),
+('Jomsom'),
+('Bhojpur'),
+('Rukum'),
+('Phaplu'),
+('Surkhet'),
+('Meghauli')
 

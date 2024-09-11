@@ -1,6 +1,11 @@
 <?php
 // Include config file for database connection
 include 'config.php';
+
+
+
+$query = "SELECT * FROM locations";
+$result = mysqli_query($conn, $query);
 ?>
 
 <!DOCTYPE html>
