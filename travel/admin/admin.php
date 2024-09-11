@@ -31,6 +31,7 @@ $result = mysqli_query($conn, $sql);
         <td><?php echo $row['departure']; ?></td>
         <td><?php echo $row['destination']; ?></td>
         <td><?php echo $row['travel_date']; ?></td>
+        <td><?php echo $row['return-date']; ?></td>
         <td><?php echo $row['passengers']; ?></td>
     </tr>
     <?php } ?>

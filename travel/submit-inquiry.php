@@ -6,6 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $departure = $_POST['departure'];
     $destination = $_POST['destination'];
     $travelDate = $_POST['travel-date'];
+    $returnDate = $_POST['return-date'];
     $passengers = $_POST['passengers'];
 
     // Insert data into the database

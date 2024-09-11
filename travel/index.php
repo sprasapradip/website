@@ -24,7 +24,10 @@ include 'config.php';
 
         <label for="travel-date">Travel Date:</label>
         <input type="date" id="travel-date" name="travel-date" required>
-
+        
+        <label for="return-date">Return Date:</label>
+        <input type="date" id="return-date" name="return-date" required>
+        
         <label for="passengers">Number of Passengers:</label>
         <input type="number" id="passengers" name="passengers" required>
 
