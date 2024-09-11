@@ -1,0 +1,22 @@
+
+CREATE DATABASE flight_inquiry;
+
+USE flight_inquiry;
+
+CREATE TABLE flight_inquiries (
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    departure VARCHAR(255) NOT NULL,
+    destination VARCHAR(255) NOT NULL,
+    travel_date DATE NOT NULL,
+    passengers INT(11) NOT NULL
+);
+
+
+CREATE TABLE locations (
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    location_name VARCHAR(255) NOT NULL
+);
+
+-- Add some sample data
+INSERT INTO locations (location_name) VALUES
+
