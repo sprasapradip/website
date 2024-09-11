@@ -23,6 +23,7 @@ $result = mysqli_query($conn, $sql);
         <th>Departure</th>
         <th>Destination</th>
         <th>Travel Date</th>
+        <th>Return Date</th>
         <th>Passengers</th>
     </tr>
    
