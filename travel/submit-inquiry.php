@@ -10,8 +10,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $passengers = $_POST['passengers'];
 
     // Insert data into the database
-    $sql = "INSERT INTO flight_inquiries (departure, destination, travel_date, passengers) 
-            VALUES ('$departure', '$destination', '$travelDate', '$passengers')";
+    $sql = "INSERT INTO flight_inquiries (departure, destination, travel_date, return_date, passengers) 
+            VALUES ('$departure', '$destination', '$travelDate', '$returnDate', '$passengers')";
 
     if (mysqli_query($conn, $sql)) {
         echo "Inquiry submitted successfully!";
