@@ -13,7 +13,7 @@ $result = mysqli_query($conn, $sql);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Panel - Flight Inquiries</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
@@ -26,3 +26,15 @@ $result = mysqli_query($conn, $sql);
         <th>Passengers</th>
     </tr>
    
+    <?php while ($row = mysqli_fetch_assoc($result)) { ?>
+    <tr>
+        <td><?php echo $row['departure']; ?></td>
+        <td><?php echo $row['destination']; ?></td>
+        <td><?php echo $row['travel_date']; ?></td>
+        <td><?php echo $row['passengers']; ?></td>
+    </tr>
+    <?php } ?>
+</table>
+
+</body>
+</html>
